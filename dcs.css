@@ -46,18 +46,18 @@ p{font-weight:  normal; text-align: center; font-size: 16px; line-height: 150%; 
 	padding: 40px 20px;	
 }
 
-.button {
+.butt {
 	display: inline-block;
-/*	box-sizing: content-box;*/
-	background-color: darkslategrey;
+	box-sizing: content-box;
+	background-color: #2f4f4f;
 	border: 1px solid #ebebeb;
 	border-radius: 2px;
 	padding: 10px;
-/*	margin: 30px;*/
+	margin: 10px;
 text-transform: uppercase;
 }
-.button:hover{background-color: #447271;}
-.button:active{transform: scale(.98);}
+.butt:hover{background-color: #447271;}
+.butt:active{transform: scale(.98);}
 
 @media screen and (max-width: 480px){
 	.logo{width: 90%;}
