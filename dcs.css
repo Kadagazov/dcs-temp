@@ -32,8 +32,9 @@ body {
 
 h1{font-weight:  bold; text-align: center; font-size: 24px; text-transform: uppercase;padding: 20px 0;}
 h2{font-weight:  normal; text-align: center; font-size: 24px; text-transform: uppercase;padding: 20px 0;}
-h3 {font-size: 16px; text-align: center; font-weight: bold; padding: 10px 0;}
-p{font-weight:  normal; text-align: center; font-size: 16px; line-height: 150%; padding: 10px 0;}
+h3 {font-size: 20px; text-align: center; font-weight: bold; padding: 10px 0;}
+p, a{font-weight:  normal; text-align: center; font-size: 16px; line-height: 150%; padding: 10px 0;}
+a{	color: #fff; text-decoration: underline;}
 
 .text-about {
 	display: flex;
@@ -41,8 +42,8 @@ p{font-weight:  normal; text-align: center; font-size: 16px; line-height: 150%; 
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	width: 50%; height: auto;
-	background-color: rgba(0, 0, 0, 0.75);
+	width: 60%; height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 40px 20px;	
 }
 
